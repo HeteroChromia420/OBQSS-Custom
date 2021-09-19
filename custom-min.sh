@@ -21,3 +21,4 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/Modules -n -t string -s "appmenu-gtk-module"
 sudo apt purge --auto-remove tint2 cmst pnmixer dunst epiphany-browser
 sudo sed -i 's/evte/xfce4-terminal/g' /usr/bin/obamenu
+sudo sed -i 's/lxterminal/xfce4-terminal/g' /usr/bin/obamenu
