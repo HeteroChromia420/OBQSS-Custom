@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install firefox-esr xfce4-pulseaudio-plugin xfce4-notifyd xfce4-panel xfce4-weather-plugin xfce4-whiskermenu-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine flatpak plank xfce4-power-manager appmenu-gtk2-module appmenu-gtk3-module vala-panel-appmenu xfce4-appmenu-plugin -y --no-install-recommends --no-install-suggests 
+sudo apt-fast install firefox-esr xfce4-pulseaudio-plugin xfce4-notifyd xfce4-panel xfce4-weather-plugin xfce4-whiskermenu-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine flatpak plank xfce4-power-manager appmenu-gtk2-module appmenu-gtk3-module vala-panel-appmenu vala-panel xfce4-appmenu-plugin -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox
