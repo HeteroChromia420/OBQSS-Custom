@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install xfce4-panel xfce4-weather-plugin xfce4-whiskermenu-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager appmenu-gtk2-module appmenu-gtk3-module vala-panel-appmenu xfce4-appmenu-plugin -y --no-install-recommends --no-install-suggests 
+sudo apt-fast install firefox-esr xfce4-panel xfce4-weather-plugin xfce4-whiskermenu-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager appmenu-gtk2-module appmenu-gtk3-module vala-panel-appmenu xfce4-appmenu-plugin -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox
@@ -19,4 +19,4 @@ git clone https://github.com/numixproject/numix-folders
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/Modules -n -t string -s "appmenu-gtk-module"
-sudo apt purge --auto-remove tint2 cmst pnmixer dunst
+sudo apt purge --auto-remove tint2 cmst pnmixer dunst epiphany-browser
