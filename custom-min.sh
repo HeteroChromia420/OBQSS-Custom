@@ -15,7 +15,7 @@ sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools -y --no-i
 sudo pip3 install protonvpn-cli
 sudo apt update
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
-git clone https://github.com/numixproject/numix-folders
+wget -qO- https://git.io/papirus-folders-install | sh
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/Modules -n -t string -s "appmenu-gtk-module"
