@@ -1,0 +1,10 @@
+Grub Config:
+Add
+zswap.enabled=1 zswap.compressor=lz4 zswap.max_pool_percent=50
+to GRUB_CMDLINE_LINUX
+
+add this to /etc/initramfs-tools/modules
+
+# LZ4 compression support for zswap
+lz4
+lz4_compress
