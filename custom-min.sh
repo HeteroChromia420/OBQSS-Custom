@@ -20,3 +20,6 @@ git clone https://github.com/dglava/arc-openbox
 mkdir
 cp -r arc-openbox/* ~/.themes
 rm -rf arc-openbox
+clear
+echo "don't forget to read swap-help for details on improving swap support on your machine."
+read -n 1 -s -r -p "Press any key to continue..."
