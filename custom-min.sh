@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install firefox-esr ffmpegthumbnailer xfce4-pulseaudio-plugin xfce4-notifyd xfce4-panel xfce4-weather-plugin xfce4-whiskermenu-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests 
+sudo apt-fast install xfce4-appmenu-plugin vala-panel-appmenu appmenu* firefox-esr ffmpegthumbnailer xfce4-pulseaudio-plugin xfce4-notifyd xfce4-panel xfce4-weather-plugin xfce4-whiskermenu-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox
@@ -16,6 +16,9 @@ sudo apt update
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
 sudo apt purge --auto-remove tint2 cmst pnmixer dunst epiphany-browser
 sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
+xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+sudo cp 52appmenu-gtk-module_add-to-gtk-modules /etc/X11/Xsession.d
 git clone https://github.com/dglava/arc-openbox
 mkdir
 cp -r arc-openbox/* ~/.themes
