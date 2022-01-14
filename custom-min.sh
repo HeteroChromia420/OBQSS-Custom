@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install xfce4-appmenu-plugin vala-panel-appmenu appmenu* firefox-esr ffmpegthumbnailer xfce4-notifyd xfce4-weather-plugin cantata gimp xscreensaver xserver-xorg-video-intel fonts-noto* kdeconnect steam caffeine flatpak plank -y --no-install-recommends --no-install-suggests 
+sudo apt-fast install xfce4-appmenu-plugin vala-panel-appmenu appmenu* firefox-esr ffmpegthumbnailer xfce4-notifyd xfce4-weather-plugin gimp fonts-noto* kdeconnect steam caffeine flatpak plank -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 rm -rf ~/.config/xfce4
 mkdir ~/.config/openbox
