@@ -7,8 +7,10 @@ sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt-fast install xfce4-appmenu-plugin vala-panel-appmenu appmenu* firefox-esr ffmpegthumbnailer xfce4-notifyd xfce4-weather-plugin desktop-base network-manager network-manager-gnome cantata gimp xscreensaver xserver-xorg-video-intel fonts-noto* kdeconnect steam caffeine flatpak plank -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
+rm -rf ~/.config/xfce4
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox
+cp -r xfce4 ~/.config
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install adriconf
 sudo apt-fast install -y openvpn network-manager-openvpn-gnome -y --no-install-recommends --no-install-suggests
