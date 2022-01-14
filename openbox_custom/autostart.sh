@@ -1,5 +1,5 @@
 pulseaudio --start &
-nitrogen --restore &
+pcmanfm --desktop &
 xfce4-panel &
 compton &
 package-update-indicator &
