@@ -16,7 +16,7 @@ sudo flatpak install adriconf
 sudo apt-fast install -y openvpn network-manager-openvpn-gnome -y --no-install-recommends --no-install-suggests
 sudo apt update
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
-sudo apt purge --auto-remove epiphany-browser dunst
+sudo apt purge --auto-remove epiphany-browser
 sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
