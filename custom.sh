@@ -17,11 +17,8 @@ sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
 sudo apt purge --auto-remove epiphany-browser
 sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
 echo "deb [arch=amd64] http://deb.librewolf.net bullseye main" | sudo tee /etc/apt/sources.list.d/librewolf.list
-
 sudo wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librewolf.gpg
-
 sudo apt update
-
 sudo apt install librewolf -y
 git clone https://github.com/dglava/arc-openbox
 cp -r arc-openbox/* ~/.themes
