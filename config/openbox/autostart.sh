@@ -1,5 +1,5 @@
 pulseaudio --start &
-nitrogen &
+nitrogen --restore &
 tint2 &
 picom &
 package-update-indicator &
