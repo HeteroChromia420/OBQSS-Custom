@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install desktop-base caffeine xscreensaver xfce4-notifyd xfce4-power-manager package-update-indicator arc-theme papirus-icon-theme breeze-cursor-theme picom wget ffmpegthumbnailer fonts-noto* kdeconnect steam caffeine flatpak plank zram-tools -y --no-install-recommends --no-install-suggests 
+sudo apt install desktop-base caffeine xscreensaver xfce4-notifyd xfce4-power-manager package-update-indicator arc-theme breeze-cursor-theme picom wget ffmpegthumbnailer fonts-noto* kdeconnect steam caffeine flatpak plank zram-tools -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r config/* ~/.config/
@@ -23,5 +23,6 @@ sudo apt install librewolf -y
 git clone https://github.com/dglava/arc-openbox
 cp -r arc-openbox/* ~/.themes
 rm -rf arc-openbox
+wget -qO- https://git.io/papirus-icon-theme-install | sh
 clear
 read -n 1 -s -r -p "Press any key to continue..."
