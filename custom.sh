@@ -23,5 +23,8 @@ sudo wget https://deb.librewolf.net/keyring.gpg -O /etc/apt/trusted.gpg.d/librew
 sudo apt update
 
 sudo apt install librewolf -y
+git clone https://github.com/dglava/arc-openbox
+cp -r arc-openbox/* ~/.themes
+rm -rf arc-openbox
 clear
 read -n 1 -s -r -p "Press any key to continue..."
