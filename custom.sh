@@ -24,5 +24,6 @@ git clone https://github.com/dglava/arc-openbox
 cp -r arc-openbox/* ~/.themes
 rm -rf arc-openbox
 wget -qO- https://git.io/papirus-icon-theme-install | sh
+wget -qO- https://git.io/papirus-folders-install | sh
 clear
 read -n 1 -s -r -p "Press any key to continue..."
