@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install desktop-base xfce4-screenshooter caffeine xscreensaver xfce4-notifyd xfce4-power-manager package-update-indicator arc-theme breeze-cursor-theme picom wget ffmpegthumbnailer fonts-noto* kdeconnect steam caffeine flatpak plank zram-tools -y --no-install-recommends --no-install-suggests 
+sudo apt install desktop-base gmrun xfce4-screenshooter caffeine xscreensaver xfce4-notifyd xfce4-power-manager package-update-indicator arc-theme breeze-cursor-theme picom wget ffmpegthumbnailer fonts-noto* kdeconnect steam caffeine flatpak plank zram-tools -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r config/* ~/.config/
