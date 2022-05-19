@@ -11,4 +11,3 @@ caffeine-indicator &
 xscreensaver -nosplash &
 xfce4-power-manager &
 mpd &
-pnmixer &
