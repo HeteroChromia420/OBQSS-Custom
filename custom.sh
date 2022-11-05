@@ -3,8 +3,6 @@
 clear
 
 # in this sh file, there's just a bunch of packages that i personally use.
-sudo dpkg --add-architecture i386
-sudo apt update
 sudo apt install caffeine breeze-cursor-theme wget fonts-noto* kdeconnect plank zram-tools -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
