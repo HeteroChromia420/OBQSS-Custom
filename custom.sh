@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt install smplayer smplayer-themes cantata synaptic xfce4-panel xfce4-pulseaudio-plugin xfce4-whiskermenu-plugin desktop-base gmrun xfce4-screenshooter caffeine xscreensaver xfce4-notifyd xfce4-power-manager package-update-indicator arc-theme breeze-cursor-theme picom wget ffmpegthumbnailer fonts-noto* kdeconnect steam caffeine flatpak plank zram-tools -y --no-install-recommends --no-install-suggests 
+sudo apt install caffeine breeze-cursor-theme wget fonts-noto* kdeconnect plank zram-tools -y --no-install-recommends --no-install-suggests 
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r config/* ~/.config/
@@ -14,7 +14,7 @@ sudo flatpak install adriconf
 sudo apt install -y openvpn network-manager-openvpn-gnome -y --no-install-recommends --no-install-suggests
 sudo apt update
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
-sudo apt purge --auto-remove dunst tint2 pnmixer celluloid quodlibet
+sudo apt purge --auto-remove dunst tint2 pnmixer celluloid quodlibet gimp mpv youtube-dl epiphany-browser libreoffice 
 sudo cp 69-sysctl-performance.conf /etc/sysctl.d/
 git clone https://github.com/dglava/arc-openbox
 cp -r arc-openbox/* ~/.themes
