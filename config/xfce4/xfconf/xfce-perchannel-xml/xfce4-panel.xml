@@ -35,11 +35,6 @@
         <value type="string" value="org.guido-berhoerster.code.package-update-indicator"/>
       </property>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (72%)"/>
-        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (76%)"/>
-        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (58%)"/>
-        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (85%)"/>
-        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (70%)"/>
         <value type="string" value="gdlauncher"/>
         <value type="string" value="gpick"/>
         <value type="string" value="uget-gtk"/>
