@@ -18,5 +18,6 @@ wget -qO- https://git.io/papirus-folders-install | sh
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 sudo cp 52appmenu-gtk-module_add-to-gtk-modules /etc/X11/Xsession.d
+sudo cp -r wallpapers /home/
 clear
 read -n 1 -s -r -p "Press any key to continue..."
