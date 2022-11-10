@@ -6,37 +6,45 @@
     <value type="int" value="1"/>
     <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=512;y=747"/>
+      <property name="position" type="string" value="p=6;x=640;y=17"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="32"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="2"/>
-        <value type="int" value="3"/>
+        <value type="int" value="5"/>
         <value type="int" value="8"/>
         <value type="int" value="6"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
+        <value type="int" value="7"/>
       </property>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="uint" value="1"/>
-      <property name="flat-buttons" type="bool" value="false"/>
-    </property>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="SchildiChat1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="KDE Connect Indicator"/>
+        <value type="string" value="caffeine-cup-empty"/>
         <value type="string" value="org.guido-berhoerster.code.package-update-indicator"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (72%)"/>
+        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (76%)"/>
+        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (58%)"/>
+        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (85%)"/>
+        <value type="string" value="wi-fi network connection “nos-7214” active: nos-7214 (70%)"/>
+        <value type="string" value="gdlauncher"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="uget-gtk"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="caffeine-indicator"/>
         <value type="string" value="package update indicator"/>
         <value type="string" value="networkmanager applet"/>
       </property>
@@ -44,6 +52,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance2;firefox.instance16849;firefox.instance27746;firefox.instance2883;firefox.instance30971;firefox.instance30973;firefox.instance4993;firefox.instance5198;firefox.instance7686;kdeconnect.mpris_0076a9e6701640249d56703e8e34c909;kdeconnect.mpris_084f1c21bd344ca6a9d18739433ed7e1;kdeconnect.mpris_168fcf2329d34f61bd4f055bf3c874db;kdeconnect.mpris_2b3f4d4a67eb4c3085d909bb9686715f;kdeconnect.mpris_30c54cca805643bfa52fb17c5d2dbd43;kdeconnect.mpris_36761a4b64394fea9924d1b9e7406b0c;kdeconnect.mpris_36cd3f51ea9d4a9d84595751cbf7b39c;kdeconnect.mpris_37bd14d3b1db493094365bc320bc301d;kdeconnect.mpris_3856e79bfbe5485aa568b05f2ef230cc;kdeconnect.mpris_3ea6c7f9718e4665a3c802a175f69f70;kdeconnect.mpris_4676d1fc9489402fa4d67e238b277daf;kdeconnect.mpris_482487fa51504ecb82f2887859ba1421;kdeconnect.mpris_6c69df4fd1af424aaa8530f323767201;kdeconnect.mpris_70f54ccbf99b4a36b117a69c680116f1;kdeconnect.mpris_7a769c57471149d280cb89eddd48bbe7;kdeconnect.mpris_7b6c9449604f4db7a489ef6014f4cac2;kdeconnect.mpris_8e8f1cae89284b3a869cbea5ac8232d5;kdeconnect.mpris_930c232396874e42be81e260740b62a4;kdeconnect.mpris_9699e8b017d04fe5ac614f5f44ed0958;kdeconnect.mpris_972034a8baa7485886cf6e13b3edb318;kdeconnect.mpris_bbb3781e431c46199f4a66b4796b32b4;kdeconnect.mpris_c8729fda119347e2a7d1392e9aee9b62;kdeconnect.mpris_d197e7ae63e84f8fa086239b20182c7a;kdeconnect.mpris_ea40d81e97c84af097a4d4dc9b116c92"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -54,5 +63,15 @@
       <property name="digital-format" type="string" value="%I:%M %p"/>
     </property>
     <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-5" type="string" value="appmenu">
+      <property name="plugins" type="empty">
+        <property name="plugin-5" type="empty">
+          <property name="compact-mode" type="bool" value="false"/>
+          <property name="bold-application-name" type="bool" value="true"/>
+          <property name="expand" type="bool" value="true"/>
+        </property>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="showdesktop"/>
   </property>
 </channel>
