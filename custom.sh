@@ -7,7 +7,7 @@ sudo apt install dunst xfce4-whiskermenu-plugin xfce4-appmenu-plugin vala-panel-
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r config/* ~/.config/
-cp gtkrc-2.0 ~/.gtkrc2.0
+cp gtkrc-2.0 ~/.gtkrc-2.0
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo apt install -y openvpn network-manager-openvpn-gnome -y --no-install-recommends --no-install-suggests
 sudo apt update
